@@ -1,0 +1,13 @@
+.icon-team {
+  display: flex;
+  border-radius: 50%;
+  fill: $client-logo;
+  padding: 12px;
+  margin-bottom: 30px;
+  transition: $transition;
+  &:hover {
+    background-color: $color-active;
+    fill: $color-white;
+    cursor: pointer;
+  }
+}

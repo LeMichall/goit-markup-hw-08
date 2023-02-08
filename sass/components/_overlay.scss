@@ -1,0 +1,16 @@
+.overlay {
+  position: absolute;
+  background: $box-overlay;
+  width: 370px;
+  height: 294px;
+  display: flex;
+  transform: translateY(100%);
+  transition: $transition;
+  &__text {
+    display: flex;
+    font-size: 18px;
+    line-height: 1.5;
+    color: $color-white;
+    padding: 49px 45px 49px 24px;
+  }
+}

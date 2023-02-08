@@ -1,0 +1,58 @@
+.list {
+  display: flex;
+  justify-content: center;
+
+  &--relative {
+    position: relative;
+  }
+  &__captions {
+    color: $color-white;
+    position: absolute;
+    width: 370px;
+    bottom: 4px;
+    font-size: 14px;
+    line-height: 1.17;
+    display: block;
+    text-align: center;
+    background: $image-overlay;
+    padding: 27px 90px;
+  }
+  &--spacing {
+    justify-content: space-evenly;
+  }
+  &--footer-spacing {
+    padding-top: 60px;
+    justify-content: flex-start;
+  }
+  &__item-footer {
+    margin-right: 10px;
+  }
+  &__client-logo {
+    display: block;
+    width: 170px;
+    height: 92px;
+    fill: $client-logo;
+    border: 1px solid $client-logo;
+    border-radius: 4px;
+    padding: 16px 32px;
+    transition: $transition;
+    &:hover {
+      fill: $color-active;
+      border-color: $color-active;
+      cursor: pointer;
+    }
+  }
+  &__item-about:not(:last-child) {
+    margin-right: 30px;
+  }
+  &__item-team {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    background-color: $color-white;
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+}

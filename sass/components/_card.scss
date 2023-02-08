@@ -1,0 +1,22 @@
+.card {
+  margin: 0px;
+
+  &__title {
+    padding: 20px 24px 4px 24px;
+    font-size: 18px;
+    line-height: 2;
+  }
+  &__type {
+    display: block;
+    padding: 0 24px 20px 24px;
+    line-height: 1.9;
+    &--grey {
+      color: $color-grey;
+    }
+  }
+  &__caption {
+    border-right: $card-borders;
+    border-left: $card-borders;
+    border-bottom: $card-borders;
+  }
+}

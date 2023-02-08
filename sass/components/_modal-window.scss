@@ -1,0 +1,35 @@
+.modal {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 528px;
+  height: 581px;
+  background-color: $color-white;
+  position: fixed;
+  border-radius: 4px;
+  z-index: 2;
+  opacity: 1;
+  visibility: visible;
+
+  &__close-button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: $close-button-border;
+    padding: 6px;
+    background-color: $color-white;
+  }
+
+  &__text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    padding: 40px 40px 2px 40px;
+  }
+}

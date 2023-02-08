@@ -1,0 +1,15 @@
+.backdrop {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background: $modal-overlay;
+  transition: $modal-window-transition;
+
+  &--is-hidden {
+    pointer-events: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+}

@@ -1,0 +1,39 @@
+.nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  display: flex;
+  padding: 32px 371px 32px 93px;
+  margin: auto;
+
+  &-item {
+    color: inherit;
+    text-decoration: none;
+    width: 53px;
+
+    &:not(:last-child) {
+      margin-right: 46px;
+    }
+  }
+
+  &-link {
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+    transition: $transition;
+    &:hover,
+    &:focus {
+      color: $color-active;
+    }
+    &--underline::after {
+      position: absolute;
+      content: "";
+      height: 4px;
+      width: 100%;
+      bottom: -33px;
+      right: 0;
+      border-radius: 2px;
+      background-color: $color-active;
+    }
+  }
+}

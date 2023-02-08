@@ -1,0 +1,23 @@
+.section-advantages {
+  display: flex;
+  justify-content: space-evenly;
+
+  &__icons {
+    display: block;
+    background-color: $color-background-elements;
+    border-radius: 4px;
+    padding: 25px 100px;
+    margin-bottom: 30px;
+  }
+  &__title {
+    font-size: 14px;
+    line-height: 1.17;
+    margin-bottom: 10px;
+    width: 270px;
+  }
+  &__text {
+    font-size: 14px;
+    line-height: 1.7;
+    color: $color-grey;
+  }
+}

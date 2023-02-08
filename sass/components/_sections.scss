@@ -1,0 +1,22 @@
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  &--back-darker {
+    background-color: $color-background-elements;
+  }
+  &-title {
+    font-size: 36px;
+    line-height: 1.17;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  &--background-img {
+    max-width: 1600px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      $section-header-background-img;
+  }
+}

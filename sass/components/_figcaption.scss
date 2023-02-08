@@ -1,0 +1,13 @@
+.figcaption {
+  text-align: center;
+
+  &__name {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  &__job {
+    display: block;
+    padding-bottom: 30px;
+    color: $color-grey;
+  }
+}
