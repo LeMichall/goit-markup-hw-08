@@ -10,4 +10,24 @@
     padding-bottom: 25px;
     width: 145px;
   }
+  &__icon {
+    &:hover,
+    &:focus {
+      fill: $color-active;
+    }
+  }
+  &__btn {
+    display: block;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+
+    @include tablet {
+      & {
+        display: none;
+      }
+    }
+  }
 }
