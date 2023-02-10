@@ -1,4 +1,16 @@
 .section-advantages {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  @include desktop {
+    flex-wrap: nowrap;
+  }
+  &__item {
+    @include tablet {
+      // width: 354px;
+      flex-basis: calc((100% - 30px) / 2);
+    }
+  }
   &__icons {
     display: block;
     background-color: $color-background-elements;

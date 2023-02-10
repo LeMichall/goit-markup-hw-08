@@ -7,6 +7,20 @@
     display: flex;
     align-content: center;
     text-align: center;
-    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+    @include desktop {
+      flex-wrap: nowrap;
+      align-content: space-evenly;
+    }
+  }
+  &__address {
+    @include desktop {
+      display: flex;
+      text-align: left;
+      align-items: flex-start;
+      flex-direction: column;
+    }
   }
 }

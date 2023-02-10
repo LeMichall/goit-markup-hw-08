@@ -10,6 +10,10 @@
   z-index: 2;
   opacity: 1;
   visibility: visible;
+  @include desktop {
+    width: 528px;
+    min-height: 581px;
+  }
 
   &__close-button {
     position: absolute;
@@ -21,6 +25,10 @@
     border: $close-button-border;
     padding: 6px;
     background-color: $color-white;
+    cursor: pointer;
+    &:hover {
+      color: $color-active;
+    }
   }
 
   &__text {

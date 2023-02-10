@@ -1,10 +1,11 @@
 .address {
   margin-top: 20px;
-  padding-bottom: 60px;
   line-height: 1.7;
   font-size: 14px;
   text-decoration: none;
-
+  @include desktop {
+    width: 246px;
+  }
   &__item:not(:last-child) {
     margin-bottom: 8px;
   }

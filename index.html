@@ -110,7 +110,7 @@
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li>
+            <li class="section-advantages__item">
               <svg class="section-advantages__icons" width="270" height="120">
                 <use href="./images/icons.svg#icon-clock"></use>
               </svg>
@@ -120,7 +120,7 @@
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li>
+            <li class="section-advantages__item">
               <svg class="section-advantages__icons" width="270" height="120">
                 <use href="./images/icons.svg#icon-diagram"></use>
               </svg>
@@ -130,7 +130,7 @@
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li>
+            <li class="section-advantages__item">
               <svg class="section-advantages__icons" width="270" height="120">
                 <use href="./images/icons.svg#icon-astronaut"></use>
               </svg>
@@ -152,6 +152,7 @@
               <span class="list__captions">APLIKACJE KOMPUTEROWE</span>
               <img
                 src="./images/img1.jpg"
+                srcset="./images/img1-@2x.jpg 2x"
                 alt="Osoba pisząca kod na tablecie"
                 width="370"
                 height="294"
@@ -161,6 +162,7 @@
               <span class="list__captions">APLIKACJE MOBILNE</span>
               <img
                 src="./images/img2.jpg"
+                srcset="./images/img2-@2x.jpg 2x"
                 alt="Osoba trzymająca smartphone przed ekranem laptopa"
                 width="370"
                 height="294"
@@ -170,6 +172,7 @@
               <span class="list__captions">ROZWIĄZANIA GRAFICZNE</span>
               <img
                 src="./images/img3.jpg"
+                srcset="./images/img3-@2x.jpg 2x"
                 alt="Tablet graficzny"
                 width="370"
                 height="294"
@@ -363,33 +366,33 @@
         <div class="container">
           <h2 class="section-title">Nasi klienci</h2>
           <ul class="list list--spacing-clients">
-            <li>
-              <svg class="list__client-logo">
+            <li class="list__client-item" tabindex="0">
+              <svg class="list__client-logo" width="106" height="60">
                 <use href="./images/icons.svg#icon-Logo5"></use>
               </svg>
             </li>
-            <li>
-              <svg class="list__client-logo">
+            <li class="list__client-item" tabindex="0">
+              <svg class="list__client-logo" width="106" height="60">
                 <use href="./images/icons.svg#icon-Logo4"></use>
               </svg>
             </li>
-            <li>
-              <svg class="list__client-logo">
+            <li class="list__client-item" tabindex="0">
+              <svg class="list__client-logo" width="106" height="60">
                 <use href="./images/icons.svg#icon-Logo3"></use>
               </svg>
             </li>
-            <li>
-              <svg class="list__client-logo">
+            <li class="list__client-item" tabindex="0">
+              <svg class="list__client-logo" width="106" height="60">
                 <use href="./images/icons.svg#icon-Logo2"></use>
               </svg>
             </li>
-            <li>
-              <svg class="list__client-logo">
+            <li class="list__client-item" tabindex="0">
+              <svg class="list__client-logo" width="106" height="60">
                 <use href="./images/icons.svg#icon-Logo1"></use>
               </svg>
             </li>
-            <li>
-              <svg class="list__client-logo">
+            <li class="list__client-item" tabindex="0">
+              <svg class="list__client-logo" width="106" height="60">
                 <use href="./images/icons.svg#icon-Logo"></use>
               </svg>
             </li>
@@ -401,7 +404,7 @@
     <footer class="page-footer">
       <!-- <div class="container list list--footer-spacing"> -->
       <div class="container page-footer__wrapper">
-        <div>
+        <div class="page-footer__address">
           <a class="logo logo__page-footer logo--white" href="#"
             ><span class="logo logo--blue">Web</span>Studio</a
           >
@@ -464,10 +467,10 @@
           </ul>
         </div>
         <div class="newsletter">
-          <label for="user_email"
-            ><h3 class="newsletter__title">ZAPISZ SIĘ DO NEWSLETTERA</h3></label
-          >
-          <form>
+          <form class="newsletter__form">
+            <label for="user_email" class="newsletter__title"
+              ><h3>ZAPISZ SIĘ DO NEWSLETTERA</h3></label
+            >
             <input
               class="newsletter__input"
               type="email"

@@ -78,6 +78,10 @@
       border: $checkbox-border;
       border-radius: 2px;
       background-repeat: no-repeat;
+      @include desktop {
+        bottom: 21%;
+        left: 10%;
+      }
     }
   }
   &__input {
