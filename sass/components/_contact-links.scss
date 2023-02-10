@@ -1,29 +1,35 @@
 .contact-links {
   display: none;
-}
-@media (min-width: 767px) {
-  .contact-links {
+  @include tablet {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  &__item {
+    @include desktop {
+      &:not(:last-child) {
+        margin-right: 30px;
+      }
+    }
     font-weight: 500;
     font-size: 14px;
     line-height: 1.17;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     color: $color-grey;
     text-decoration: none;
     transition: $transition;
-    &:last-child {
-      margin-left: 30px;
-    }
     &:hover,
     &:focus,
     &:active {
       color: $color-active;
     }
-    &__icons {
-      --color2: currentColor;
-      fill: var(--color2);
-      margin-right: 10px;
-    }
+  }
+  &__icons {
+    --color2: currentColor;
+    fill: var(--color2);
+    margin-right: 10px;
+  }
+
+  @include desktop {
+    display: block;
   }
 }

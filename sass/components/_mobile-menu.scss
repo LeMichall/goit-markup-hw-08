@@ -10,11 +10,6 @@
   list-style: none;
 }
 
-// @media (max-width: 767px) {
-//   .menu {
-//     display: none;
-//   }
-// }
 .menu {
   display: none;
 }
@@ -31,18 +26,10 @@
 }
 
 .menu-toggle {
-  min-height: 40px;
-  min-width: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  margin: 0;
-  padding: 0;
+  display: block;
   background-color: transparent;
   cursor: pointer;
   border: none;
-  border-radius: 50%;
   outline: none;
 }
 
@@ -52,9 +39,9 @@
   }
 }
 
-.menu-toggle:hover,
-.menu-toggle:focus {
-  background-color: rgba(0, 0, 0, 0.1);
+.menu__icon:hover,
+.menu__icon:focus {
+  fill: $color-active;
 }
 
 .menu-container {
