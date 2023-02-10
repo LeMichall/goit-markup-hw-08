@@ -55,8 +55,8 @@
     </header>
     <main>
       <!--Sekcja-"Header"-->
-      <section class="section section--background-img">
-        <div class="container section-header">
+      <section class="section section-header section--background-img">
+        <div class="container section-header__wrapper">
           <h1 class="section-header__title">
             EFEKTYWNE ROZWIĄZANIA <br />DLA WASZEGO BIZNESU
           </h1>
@@ -70,7 +70,7 @@
       <section class="section">
         <div class="container">
           <ul class="section-advantages">
-            <li>
+            <li class="section-advantages__item">
               <svg class="section-advantages__icons" width="270" height="120">
                 <use href="./images/icons.svg#icon-antenna"></use>
               </svg>
@@ -114,7 +114,7 @@
         </div>
       </section>
       <!--Sekcja-Czym sie zajmujemy-->
-      <section class="section">
+      <section class="section section-about">
         <div class="container">
           <h2 class="section-title">Czym sie zajmujemy</h2>
           <ul class="list list--relative">
@@ -152,14 +152,13 @@
       <section class="section section--back-darker">
         <div class="container">
           <h2 class="section-title">Nasz zespół</h2>
-          <ul class="list">
+          <ul class="list list--team">
             <li class="list__item-team">
               <figure>
                 <img
-                  src="./images/product_designer.jpg"
+                  src="./images/team/product_designer.jpg"
                   alt="Mężczyzna"
-                  width="270"
-                  height="260"
+                  srcset="./images/team/product_designer-2x.jpg 2x"
                 />
                 <figcaption class="figcaption">
                   <h3 class="figcaption__name">John Doe</h3>
@@ -167,29 +166,29 @@
                 </figcaption>
               </figure>
               <ul class="list list--spacing">
-                <li>
-                  <a class="icon-team"
+                <li class="icon">
+                  <a class="icon__team"
                     ><svg width="20" height="20">
                       <use href="./images/icons.svg#icon-instagram"></use>
                     </svg>
                   </a>
                 </li>
-                <li>
-                  <a class="icon-team"
+                <li class="icon">
+                  <a class="icon__team"
                     ><svg width="20" height="20">
                       <use href="./images/icons.svg#icon-twitter"></use>
                     </svg>
                   </a>
                 </li>
-                <li>
-                  <a class="icon-team"
+                <li class="icon">
+                  <a class="icon__team"
                     ><svg width="20" height="20">
                       <use href="./images/icons.svg#icon-facebook"></use>
                     </svg>
                   </a>
                 </li>
-                <li>
-                  <a class="icon-team"
+                <li class="icon">
+                  <a class="icon__team"
                     ><svg width="20" height="20">
                       <use href="./images/icons.svg#icon-linkedin"></use>
                     </svg>
@@ -200,10 +199,9 @@
             <li class="list__item-team">
               <figure>
                 <img
-                  src="./images/frontend_developer.jpg"
+                  src="./images/team/frontend_developer.jpg"
                   alt="Kobieta"
-                  width="270"
-                  height="260"
+                  srcset="./images/team/frontend_developer-2x.jpg 2x"
                 />
                 <figcaption class="figcaption">
                   <h3 class="figcaption__name">John Doe</h3>
@@ -211,29 +209,29 @@
                 </figcaption>
               </figure>
               <ul class="list list--spacing">
-                <li>
-                  <a class="icon-team"
+                <li class="icon">
+                  <a class="icon__team"
                     ><svg width="20" height="20">
                       <use href="./images/icons.svg#icon-instagram"></use>
                     </svg>
                   </a>
                 </li>
-                <li>
-                  <a class="icon-team"
+                <li class="icon">
+                  <a class="icon__team"
                     ><svg width="20" height="20">
                       <use href="./images/icons.svg#icon-twitter"></use>
                     </svg>
                   </a>
                 </li>
-                <li>
-                  <a class="icon-team"
+                <li class="icon">
+                  <a class="icon__team"
                     ><svg width="20" height="20">
                       <use href="./images/icons.svg#icon-facebook"></use>
                     </svg>
                   </a>
                 </li>
-                <li>
-                  <a class="icon-team"
+                <li class="icon">
+                  <a class="icon__team"
                     ><svg width="20" height="20">
                       <use href="./images/icons.svg#icon-linkedin"></use>
                     </svg>
@@ -244,10 +242,9 @@
             <li class="list__item-team">
               <figure>
                 <img
-                  src="./images/marketing.jpg"
+                  src="./images/team/marketing.jpg"
                   alt="Mężczyzna"
-                  width="270"
-                  height="260"
+                  srcset="./images/team/marketing-2x.jpg"
                 />
                 <figcaption class="figcaption">
                   <h3 class="figcaption__name">John Doe</h3>
@@ -255,29 +252,29 @@
                 </figcaption>
               </figure>
               <ul class="list list--spacing">
-                <li>
-                  <a class="icon-team"
+                <li class="icon">
+                  <a class="icon__team"
                     ><svg width="20" height="20">
                       <use href="./images/icons.svg#icon-instagram"></use>
                     </svg>
                   </a>
                 </li>
-                <li>
-                  <a class="icon-team"
+                <li class="icon">
+                  <a class="icon__team"
                     ><svg width="20" height="20">
                       <use href="./images/icons.svg#icon-twitter"></use>
                     </svg>
                   </a>
                 </li>
-                <li>
-                  <a class="icon-team"
+                <li class="icon">
+                  <a class="icon__team"
                     ><svg width="20" height="20">
                       <use href="./images/icons.svg#icon-facebook"></use>
                     </svg>
                   </a>
                 </li>
-                <li>
-                  <a class="icon-team"
+                <li class="icon">
+                  <a class="icon__team"
                     ><svg width="20" height="20">
                       <use href="./images/icons.svg#icon-linkedin"></use>
                     </svg>
@@ -288,10 +285,9 @@
             <li class="list__item-team">
               <figure>
                 <img
-                  src="./images/ui_designer.jpg"
+                  src="./images/team/ui_designer.jpg"
                   alt="Mężczyzna"
-                  width="270"
-                  height="260"
+                  srcset="./images/team/ui_designer-2x.jpg"
                 />
                 <figcaption class="figcaption">
                   <h3 class="figcaption__name">John Doe</h3>
@@ -299,29 +295,29 @@
                 </figcaption>
               </figure>
               <ul class="list list--spacing">
-                <li>
-                  <a class="icon-team"
+                <li class="icon">
+                  <a class="icon__team"
                     ><svg width="20" height="20">
                       <use href="./images/icons.svg#icon-instagram"></use>
                     </svg>
                   </a>
                 </li>
-                <li>
-                  <a class="icon-team"
+                <li class="icon">
+                  <a class="icon__team"
                     ><svg width="20" height="20">
                       <use href="./images/icons.svg#icon-twitter"></use>
                     </svg>
                   </a>
                 </li>
-                <li>
-                  <a class="icon-team"
+                <li class="icon">
+                  <a class="icon__team"
                     ><svg width="20" height="20">
                       <use href="./images/icons.svg#icon-facebook"></use>
                     </svg>
                   </a>
                 </li>
-                <li>
-                  <a class="icon-team"
+                <li class="icon">
+                  <a class="icon__team"
                     ><svg width="20" height="20">
                       <use href="./images/icons.svg#icon-linkedin"></use>
                     </svg>
@@ -336,7 +332,7 @@
       <section class="section">
         <div class="container">
           <h2 class="section-title">Nasi klienci</h2>
-          <ul class="list list--spacing">
+          <ul class="list list--spacing-clients">
             <li>
               <svg class="list__client-logo">
                 <use href="./images/icons.svg#icon-Logo5"></use>
@@ -373,9 +369,10 @@
     </main>
     <!--Footer-->
     <footer class="page-footer">
-      <div class="container list list--footer-spacing">
+      <!-- <div class="container list list--footer-spacing"> -->
+      <div class="container page-footer__wrapper">
         <div>
-          <a class="logo logo--white" href="#"
+          <a class="logo logo__page-footer logo--white" href="#"
             ><span class="logo logo--blue">Web</span>Studio</a
           >
           <address class="address">
@@ -407,28 +404,28 @@
           </h3>
           <ul class="list">
             <li class="list__item-footer">
-              <a class="footer-social__icon-team icon-team"
+              <a class="footer-social__icon icon"
                 ><svg width="20" height="20">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="list__item-footer">
-              <a class="footer-social__icon-team icon-team"
+              <a class="footer-social__icon icon"
                 ><svg width="20" height="20">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="list__item-footer">
-              <a class="footer-social__icon-team icon-team"
+              <a class="footer-social__icon icon"
                 ><svg width="20" height="20">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a class="footer-social__icon-team icon-team"
+              <a class="footer-social__icon icon"
                 ><svg width="20" height="20">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
@@ -506,6 +503,7 @@
         </form>
       </div>
     </div>
+
     <script src="./js/modal.js"></script>
   </body>
 </html>

@@ -1,7 +1,9 @@
 .footer-social {
   width: 206px;
-  margin-left: 70px;
-
+  margin-bottom: 60px;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
   &__title {
     font-size: 14px;
     line-height: 1.17;
@@ -11,7 +13,7 @@
     }
   }
 
-  &__icon-team {
+  &__icon {
     background-color: $icon-footer-background;
     fill: $color-white;
   }

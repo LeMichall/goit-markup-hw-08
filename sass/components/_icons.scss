@@ -1,9 +1,11 @@
-.icon-team {
+.icon {
   display: flex;
+  display: flex;
+  align-content: center;
+  gap: 10px;
   border-radius: 50%;
   fill: $client-logo;
   padding: 12px;
-  margin-bottom: 30px;
   transition: $transition;
   &:hover {
     background-color: $color-active;

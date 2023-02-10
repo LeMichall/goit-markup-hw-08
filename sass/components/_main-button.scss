@@ -12,6 +12,7 @@
     background-color: $color-active;
     color: $color-white;
     padding: 10px 28px 10px 42px;
+    margin-bottom: 60px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -25,7 +26,7 @@
     color: $color-white;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     display: block;
-    margin: 0px 164px 40px 164px;
+    margin: 0px 125px 40px 125px;
     cursor: pointer;
   }
   &:hover,
